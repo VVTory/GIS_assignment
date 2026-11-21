@@ -1,0 +1,7 @@
+﻿cache_enabled,concurrency,requests,cold_status,cold_cache,cold_ms,median_ms,p95_ms,app_median_ms,throughput_rps,errors,cache_hits,cache_bypasses
+False,1,60,200,query:BYPASS,188.031,41.067,49.225,37.898,23.73,0,0,60
+False,5,60,200,query:BYPASS,41.385,208.646,307.201,198.842,22.26,0,0,60
+False,10,60,200,query:BYPASS,81.868,650.392,686.335,609.065,15.35,0,0,60
+True,1,60,200,query:MISS,77.826,16.526,21.501,12.496,56.61,0,60,0
+True,5,60,200,query:MISS,60.316,76.164,93.06,58.806,64.02,0,60,0
+True,10,60,200,query:MISS,66.936,166.89,193.781,128.373,59.36,0,60,0

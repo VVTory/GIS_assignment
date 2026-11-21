@@ -1,0 +1,2866 @@
+{
+  "checked_at_utc": "2026-11-15T01:41:51.470626+00:00",
+  "service_url": "http://127.0.0.1:8600/geoserver",
+  "service_versions": {
+    "GeoServer": "2.28.2",
+    "GeoWebCache": "1.28.2"
+  },
+  "release": "staging-2025-20261115",
+  "raster_count": 317,
+  "passed": true,
+  "checks": [
+    {
+      "asset": "ef-2025-05-01",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4255,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-05-01",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3702,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-01",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3981,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-05-02",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2156,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-05-02",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2123,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-02",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3970,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-05-03",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3520,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-05-03",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3288,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-03",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3966,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-05-04",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3876,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-05-04",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3638,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-04",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3973,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-05-05",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2654,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-05-05",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2609,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-05",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3920,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-06",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3963,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-05-07",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 1721,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-07",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3972,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-05-08",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2382,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-05-08",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2278,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-08",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3970,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-05-09",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3725,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-05-09",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3376,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-09",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4033,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-05-10",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3195,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-05-10",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3136,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-10",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3992,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-05-11",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3818,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-05-11",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3719,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-11",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3980,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-05-12",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4318,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-05-12",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3824,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-12",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3971,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-05-13",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4207,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-05-13",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3682,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-13",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3940,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-05-14",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4335,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-05-14",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3830,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-14",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3968,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-05-15",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 1708,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-15",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3969,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-05-16",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4320,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-05-16",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3748,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-16",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3977,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-05-17",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2213,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-05-17",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2199,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-17",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3948,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-18",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3966,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-05-19",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2874,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-05-19",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2711,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-19",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3979,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-05-20",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4189,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-05-20",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3818,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-20",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3985,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-05-21",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4318,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-05-21",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3882,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-21",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3993,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-05-22",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2733,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-05-22",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2663,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-22",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4015,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-23",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4032,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-05-24",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2637,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-05-24",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2606,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-24",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4046,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-05-25",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 1803,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-25",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4071,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-26",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4033,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-27",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4024,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-28",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4036,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-05-29",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 1698,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-29",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4034,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-05-30",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3916,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-05-30",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3565,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-30",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4032,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-05-31",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4320,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-05-31",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3694,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-05-31",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4039,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-06-01",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4278,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-01",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3769,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-01",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4049,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-06-02",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4286,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-02",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3617,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-02",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4054,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-06-03",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2422,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-03",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2445,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-03",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4037,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-06-04",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2055,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-04",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 1982,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-04",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4045,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-05",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 1832,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-05",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4049,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-06-06",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2250,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-06",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2173,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-06",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4039,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-06-07",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2423,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-07",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2312,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-07",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4056,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-06-08",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4335,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-08",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3727,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-08",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4050,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-06-09",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3531,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-09",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3250,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-09",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4080,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-06-10",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2848,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-10",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2797,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-10",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4102,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-11",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 1728,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-11",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4056,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-12",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 1722,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-12",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4036,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-06-13",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3064,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-13",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2935,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-13",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4028,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-14",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4010,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-15",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4046,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-06-16",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4198,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-16",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3872,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-16",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4024,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-06-17",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 1989,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-17",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 1978,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-17",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4041,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-06-18",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2335,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-18",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2280,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-18",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4026,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-06-19",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4191,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-19",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3612,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-19",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4027,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-06-20",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4242,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-20",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3711,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-20",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4029,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-06-21",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4209,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-21",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3735,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-21",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4030,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-06-22",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4302,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-22",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3635,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-22",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4022,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-06-23",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2503,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-23",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2457,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-23",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4020,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-24",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 1729,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-24",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4029,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-06-25",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3996,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-25",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3731,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-25",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4021,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-06-26",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2074,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-26",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2095,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-26",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4065,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-27",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 1784,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-27",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4037,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-06-28",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3541,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-28",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3466,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-28",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4021,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-06-29",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2068,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-29",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 1972,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-29",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4033,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-06-30",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2376,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-06-30",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2393,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-06-30",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4044,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-07-01",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 1829,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-01",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 1839,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-01",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4017,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-07-02",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2697,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-02",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2654,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-02",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4015,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-07-03",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 1921,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-03",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 1910,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-03",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4038,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-04",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4042,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-05",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 1784,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-05",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4019,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-07-06",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2337,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-06",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2351,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-06",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4032,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-07-07",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2260,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-07",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2267,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-07",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4049,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-07-08",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3620,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-08",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3498,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-08",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4034,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-07-09",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3891,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-09",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3676,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-09",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4048,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-07-10",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4294,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-10",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3956,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-10",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4080,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-07-11",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2098,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-11",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2081,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-11",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4072,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-12",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 1746,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-12",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4095,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-07-13",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2111,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-13",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2098,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-13",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4074,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-07-14",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3355,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-14",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3151,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-14",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4087,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-07-15",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4226,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-15",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3964,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-15",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4056,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-07-16",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3480,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-16",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3331,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-16",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4065,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-17",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4080,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-07-18",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3318,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-18",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3250,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-18",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4085,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-07-19",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3050,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-19",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2942,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-19",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4079,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-07-20",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3800,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-20",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3783,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-20",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4078,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-07-21",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4209,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-21",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3892,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-21",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4081,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-07-22",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4346,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-22",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3905,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-22",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4080,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-07-23",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3057,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-23",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3054,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-23",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4059,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-07-24",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2433,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-24",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2424,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-24",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4080,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-07-25",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3546,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-25",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3398,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-25",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4084,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-07-26",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2417,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-26",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2315,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-26",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4091,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-07-27",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4290,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-27",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3913,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-27",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4095,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-07-28",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4253,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-28",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3899,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-28",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4128,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-07-29",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3929,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-29",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3458,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-29",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4112,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-07-30",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4062,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-07-30",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3852,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-30",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4143,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-07-31",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4129,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-08-01",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2005,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-08-01",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 1954,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-01",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4108,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-08-02",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2822,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-08-02",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2743,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-02",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4097,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-03",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4103,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-08-04",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4354,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-08-04",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3911,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-04",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4102,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-08-05",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3587,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-08-05",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3349,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-05",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4111,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-08-06",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4354,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-08-06",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3834,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-06",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4105,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-08-07",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4337,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-08-07",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3940,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-07",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4112,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-08-08",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3697,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-08-08",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3515,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-08",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4123,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-09",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4115,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-08-10",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 1737,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-10",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4120,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-08-11",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 1766,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-11",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4100,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-08-12",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3450,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-08-12",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3267,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-12",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4126,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-08-13",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4193,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-08-13",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3788,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-13",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4121,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-08-14",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4138,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-08-14",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4095,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-14",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4084,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-08-15",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4132,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-08-15",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3877,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-15",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4073,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-08-16",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4357,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-08-16",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3921,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-16",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4069,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-08-17",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3009,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-08-17",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2967,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-17",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4098,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-08-18",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3068,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-08-18",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2968,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-18",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4077,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-08-19",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3274,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-08-19",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3279,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-19",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4103,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-08-20",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2911,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-08-20",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2737,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-20",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4104,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-08-21",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4353,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-08-21",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 3960,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-21",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4084,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-08-22",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4221,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-08-22",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4017,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-22",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4091,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-08-23",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2127,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-08-23",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2093,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-23",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4100,
+      "passed": true
+    },
+    {
+      "asset": "ef-2025-08-24",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2883,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-08-24",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 2838,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-24",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4049,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-25",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4062,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-08-26",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 1788,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-26",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4058,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-27",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4063,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-28",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4070,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-08-29",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 1726,
+      "passed": true
+    },
+    {
+      "asset": "ndvi-2025-08-29",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 4063,
+      "passed": true
+    },
+    {
+      "asset": "lst-2025-08-31",
+      "status": 200,
+      "provider": "geoserver-geowebcache",
+      "gwc": "MISS",
+      "api_cache_repeat": "tile:HIT",
+      "png_bytes": 1982,
+      "passed": true
+    }
+  ]
+}

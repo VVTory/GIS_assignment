@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "checked_at": "2026-11-15T12:14:46.478Z",
+  "base": "http://127.0.0.1:5175/",
+  "default_map": {
+    "layers": [
+      "background",
+      "context-lakes",
+      "context-rivers",
+      "context-administration",
+      "published-layer",
+      "context-place-dots",
+      "context-state-labels",
+      "context-place-labels",
+      "outside-study-mask",
+      "study-halo",
+      "study-outline",
+      "selection-fill",
+      "selection-line",
+      "pin"
+    ],
+    "outsideOpacity": 0.5,
+    "boundaryDash": null,
+    "boundaryWidth": 1.1,
+    "insideMasked": 0,
+    "outsideMasked": 1,
+    "places": [
+      "Wichita",
+      "Ponca City",
+      "Bartlesville",
+      "Joplin",
+      "Oklahoma City",
+      "Tulsa",
+      "Shawnee",
+      "Stillwater",
+      "Enid",
+      "Muskogee"
+    ],
+    "states": [
+      "Kansas",
+      "Oklahoma"
+    ],
+    "rivers": 6,
+    "lakes": 0,
+    "studyFrame": {
+      "northwest": [
+        396.2722481174018,
+        34.000000000004434
+      ],
+      "southeast": [
+        791.7277518826027,
+        526.0000000000044
+      ],
+      "width": 1188,
+      "height": 560
+    }
+  },
+  "low_coverage_asset": "lst-2025-05-29",
+  "compared_maps": 2,
+  "external_requests": [],
+  "page_errors": [],
+  "failed_requests": [],
+  "mobile_study_frame": {
+    "northwest": [
+      22,
+      33.450143591060915
+    ],
+    "southeast": [
+      346.0000000000026,
+      436.5498564089364
+    ],
+    "width": 368,
+    "height": 470
+  },
+  "mobile_horizontal_overflow": false
+}

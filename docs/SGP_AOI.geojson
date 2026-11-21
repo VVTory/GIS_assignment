@@ -1,0 +1,13 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"name": "SGP_course_study_area"},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-98.5, 35.5], [-96.5, 35.5], [-96.5, 37.5], [-98.5, 37.5], [-98.5, 35.5]]]
+      }
+    }
+  ]
+}

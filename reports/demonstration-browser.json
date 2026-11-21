@@ -1,0 +1,119 @@
+{
+  "status": "passed",
+  "checked_at": "2026-11-21T02:43:15.031Z",
+  "checks": [
+    "quality_native_qa_overlay",
+    "quality_point",
+    "png_download",
+    "pdf_download",
+    "export_date_race_rejected",
+    "three_variable_charts",
+    "shared_123_calendar_days",
+    "missing_not_zero",
+    "369_row_csv",
+    "playback_coverage",
+    "pause",
+    "stop_at_end",
+    "loop",
+    "series_cache",
+    "ndvi_composite_warning",
+    "smap_no_cloud_inference",
+    "mobile_no_overflow",
+    "44px_touch_targets"
+  ],
+  "missing_days": {
+    "lst": 75,
+    "ndvi": 18,
+    "soil_moisture": 108
+  },
+  "lst_quality": [
+    {
+      "code": 1,
+      "key": "valid",
+      "label": "已发布有效值",
+      "color": "#477653",
+      "count": 43882
+    },
+    {
+      "code": 2,
+      "key": "cloud",
+      "label": "产品标记云影响",
+      "color": "#8586b5",
+      "count": 179
+    },
+    {
+      "code": 3,
+      "key": "low_quality",
+      "label": "未通过质量筛选",
+      "color": "#cf9047",
+      "count": 2171
+    },
+    {
+      "code": 4,
+      "key": "excluded_surface",
+      "label": "水体／雪冰／阴影等排除项",
+      "color": "#6498a6",
+      "count": 0
+    },
+    {
+      "code": 5,
+      "key": "missing",
+      "label": "源数据或质量标记缺测",
+      "color": "#a1a496",
+      "count": 0
+    },
+    {
+      "code": 6,
+      "key": "other_exclusion",
+      "label": "其他处理排除／原因未细分",
+      "color": "#a0757d",
+      "count": 0
+    }
+  ],
+  "smap_quality": [
+    {
+      "code": 1,
+      "key": "valid",
+      "label": "已发布有效值",
+      "color": "#477653",
+      "count": 335
+    },
+    {
+      "code": 2,
+      "key": "cloud",
+      "label": "产品标记云影响",
+      "color": "#8586b5",
+      "count": 0
+    },
+    {
+      "code": 3,
+      "key": "low_quality",
+      "label": "未通过质量筛选",
+      "color": "#cf9047",
+      "count": 147
+    },
+    {
+      "code": 4,
+      "key": "excluded_surface",
+      "label": "水体／雪冰／阴影等排除项",
+      "color": "#6498a6",
+      "count": 0
+    },
+    {
+      "code": 5,
+      "key": "missing",
+      "label": "源数据或质量标记缺测",
+      "color": "#a1a496",
+      "count": 1
+    },
+    {
+      "code": 6,
+      "key": "other_exclusion",
+      "label": "其他处理排除／原因未细分",
+      "color": "#a0757d",
+      "count": 0
+    }
+  ],
+  "page_errors": [],
+  "api_failures": []
+}

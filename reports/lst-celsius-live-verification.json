@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "data_version": "local-2025-e9f6c73695-lst-celsius-v1",
+  "celsius_assets": 106,
+  "point": {
+    "asset_id": "lst-2025-05-01",
+    "date": "2025-05-01",
+    "variable": "lst",
+    "value": 21.029993057250977,
+    "unit": "°C",
+    "valid": true,
+    "source_pixel": {
+      "row": 185,
+      "col": 374,
+      "lon": -96.95934670578659,
+      "lat": 36.46249999650695
+    },
+    "method_version": "MOD11A1.061",
+    "data_version": "local-2025-e9f6c73695-lst-celsius-v1"
+  },
+  "statistics": {
+    "total_pixels": 15014,
+    "valid_pixels": 14553,
+    "valid_fraction": 0.969295324363927,
+    "min": 17.730005264282227,
+    "max": 28.889978408813477,
+    "mean": 23.908220096641347,
+    "std": 1.0072694611981199,
+    "median": 23.80999183654785,
+    "asset_id": "lst-2025-05-01",
+    "date": "2025-05-01",
+    "variable": "lst",
+    "unit": "°C",
+    "method_version": "MOD11A1.061",
+    "weighting_policy": "equal_source_pixels"
+  },
+  "series_days": 7,
+  "download_unit_verified": true,
+  "tiles": [
+    {
+      "asset_id": "lst-2025-05-01",
+      "provider": "geoserver-geowebcache"
+    },
+    {
+      "asset_id": "ndvi-2025-05-01",
+      "provider": "geoserver-geowebcache"
+    },
+    {
+      "asset_id": "ef-2025-05-01",
+      "provider": "geoserver-geowebcache"
+    }
+  ]
+}

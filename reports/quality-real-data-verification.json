@@ -1,0 +1,223 @@
+[
+  {
+    "asset_id": "lst-2025-05-01",
+    "valid_pixels": 43882,
+    "total_pixels": 46232,
+    "legend": [
+      {
+        "code": 1,
+        "key": "valid",
+        "label": "已发布有效值",
+        "color": "#477653",
+        "count": 43882
+      },
+      {
+        "code": 2,
+        "key": "cloud",
+        "label": "产品标记云影响",
+        "color": "#8586b5",
+        "count": 179
+      },
+      {
+        "code": 3,
+        "key": "low_quality",
+        "label": "未通过质量筛选",
+        "color": "#cf9047",
+        "count": 2171
+      },
+      {
+        "code": 4,
+        "key": "excluded_surface",
+        "label": "水体／雪冰／阴影等排除项",
+        "color": "#6498a6",
+        "count": 0
+      },
+      {
+        "code": 5,
+        "key": "missing",
+        "label": "源数据或质量标记缺测",
+        "color": "#a1a496",
+        "count": 0
+      },
+      {
+        "code": 6,
+        "key": "other_exclusion",
+        "label": "其他处理排除／原因未细分",
+        "color": "#a0757d",
+        "count": 0
+      }
+    ],
+    "notes": [
+      "LST：MOD11A1 QC_Day mandatory QA=2 标为云；其他不合格质量标记与缺测分开显示。"
+    ],
+    "source_dates": []
+  },
+  {
+    "asset_id": "ndvi-2025-05-01",
+    "valid_pixels": 40298,
+    "total_pixels": 46232,
+    "legend": [
+      {
+        "code": 1,
+        "key": "valid",
+        "label": "已发布有效值",
+        "color": "#477653",
+        "count": 40298
+      },
+      {
+        "code": 2,
+        "key": "cloud",
+        "label": "产品标记云影响",
+        "color": "#8586b5",
+        "count": 88
+      },
+      {
+        "code": 3,
+        "key": "low_quality",
+        "label": "未通过质量筛选",
+        "color": "#cf9047",
+        "count": 262
+      },
+      {
+        "code": 4,
+        "key": "excluded_surface",
+        "label": "水体／雪冰／阴影等排除项",
+        "color": "#6498a6",
+        "count": 5584
+      },
+      {
+        "code": 5,
+        "key": "missing",
+        "label": "源数据或质量标记缺测",
+        "color": "#a1a496",
+        "count": 0
+      },
+      {
+        "code": 6,
+        "key": "other_exclusion",
+        "label": "其他处理排除／原因未细分",
+        "color": "#a0757d",
+        "count": 0
+      }
+    ],
+    "notes": [
+      "NDVI：显示前后合成期任一端的质量限制；云来自 reliability=3、MODLAND QA=2 或混合云位。不是当天云图。"
+    ],
+    "source_dates": [
+      "2025-04-23",
+      "2025-05-09"
+    ]
+  },
+  {
+    "asset_id": "smap-am-2025-06-01",
+    "valid_pixels": 335,
+    "total_pixels": 483,
+    "legend": [
+      {
+        "code": 1,
+        "key": "valid",
+        "label": "已发布有效值",
+        "color": "#477653",
+        "count": 335
+      },
+      {
+        "code": 2,
+        "key": "cloud",
+        "label": "产品标记云影响",
+        "color": "#8586b5",
+        "count": 0
+      },
+      {
+        "code": 3,
+        "key": "low_quality",
+        "label": "未通过质量筛选",
+        "color": "#cf9047",
+        "count": 147
+      },
+      {
+        "code": 4,
+        "key": "excluded_surface",
+        "label": "水体／雪冰／阴影等排除项",
+        "color": "#6498a6",
+        "count": 0
+      },
+      {
+        "code": 5,
+        "key": "missing",
+        "label": "源数据或质量标记缺测",
+        "color": "#a1a496",
+        "count": 1
+      },
+      {
+        "code": 6,
+        "key": "other_exclusion",
+        "label": "其他处理排除／原因未细分",
+        "color": "#a0757d",
+        "count": 0
+      }
+    ],
+    "notes": [
+      "SMAP AM 原生格点反演质量：QA=0 且值在有效范围内；QA不合格与源缺测分开，不能从此标记推断云。格面为近似原生范围。"
+    ],
+    "source_dates": [
+      "2025-06-01"
+    ]
+  },
+  {
+    "asset_id": "ef-2025-05-01",
+    "valid_pixels": 35703,
+    "total_pixels": 46232,
+    "legend": [
+      {
+        "code": 1,
+        "key": "valid",
+        "label": "已发布有效值",
+        "color": "#477653",
+        "count": 35703
+      },
+      {
+        "code": 2,
+        "key": "cloud",
+        "label": "产品标记云影响",
+        "color": "#8586b5",
+        "count": 266
+      },
+      {
+        "code": 3,
+        "key": "low_quality",
+        "label": "未通过质量筛选",
+        "color": "#cf9047",
+        "count": 2258
+      },
+      {
+        "code": 4,
+        "key": "excluded_surface",
+        "label": "水体／雪冰／阴影等排除项",
+        "color": "#6498a6",
+        "count": 5572
+      },
+      {
+        "code": 5,
+        "key": "missing",
+        "label": "源数据或质量标记缺测",
+        "color": "#a1a496",
+        "count": 0
+      },
+      {
+        "code": 6,
+        "key": "other_exclusion",
+        "label": "其他处理排除／原因未细分",
+        "color": "#a0757d",
+        "count": 2433
+      }
+    ],
+    "notes": [
+      "LST：MOD11A1 QC_Day mandatory QA=2 标为云；其他不合格质量标记与缺测分开显示。",
+      "NDVI：显示前后合成期任一端的质量限制；云来自 reliability=3、MODLAND QA=2 或混合云位。不是当天云图。"
+    ],
+    "source_dates": [
+      "2025-04-23",
+      "2025-05-09"
+    ]
+  }
+]

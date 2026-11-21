@@ -1,0 +1,57 @@
+{
+  "created_at_utc": "2026-11-15T08:48:17.476920+00:00",
+  "extent": [
+    -102.5,
+    31.5,
+    -92.5,
+    41.5
+  ],
+  "study_bounds": [
+    -98.5,
+    35.5,
+    -96.5,
+    37.5
+  ],
+  "source": "Natural Earth",
+  "version": "v5.1.2",
+  "sources": [
+    {
+      "dataset": "ne_10m_rivers_lake_centerlines",
+      "source_version": "v5.1.2",
+      "upstream": "https://github.com/nvkelso/natural-earth-vector/blob/v5.1.2/geojson/ne_10m_rivers_lake_centerlines.geojson",
+      "sha256": "bb854a900ecbd3b408df46d5e16e3e0f974ba55993f9d8b5c26e855273c0905a"
+    },
+    {
+      "dataset": "ne_10m_lakes",
+      "source_version": "v5.1.2",
+      "upstream": "https://github.com/nvkelso/natural-earth-vector/blob/v5.1.2/geojson/ne_10m_lakes.geojson",
+      "sha256": "2d036f53dedec578001c5c30c2959ee7d4eebc1306900fa4367c49929ec8f2d9"
+    },
+    {
+      "dataset": "ne_10m_populated_places_simple",
+      "source_version": "v5.1.2",
+      "upstream": "https://github.com/nvkelso/natural-earth-vector/blob/v5.1.2/geojson/ne_10m_populated_places_simple.geojson",
+      "sha256": "fd3fa867a320cbd5c5b6bb5bc550afeec2939fb2cef688e508007282a55ac42f"
+    },
+    {
+      "dataset": "ne_50m_admin_1_states_provinces",
+      "source_version": "v5.1.2",
+      "upstream": "https://github.com/nvkelso/natural-earth-vector/blob/v5.1.2/geojson/ne_50m_admin_1_states_provinces.geojson",
+      "sha256": "69a0e06e640b2d505858ae1cb63034e4677f3000b35a98e16312932b98c426b9"
+    }
+  ],
+  "download_mirrors_used": [
+    "cdn.jsdelivr.net",
+    "fastly.jsdelivr.net"
+  ],
+  "features_by_kind": {
+    "river": 22,
+    "lake": 4,
+    "state-label": 9,
+    "administration": 1,
+    "place": 58
+  },
+  "bytes": 91184,
+  "processing": "WGS84 regional clipping; topology-preserving simplification at .001 degrees; coordinates rounded to 5 decimals. State label anchors use the intersection with the study area where available.",
+  "scope": "Generalized geographic context for orientation; never an analytical boundary, pixel mask or scientific data source."
+}

@@ -1,0 +1,34 @@
+.env
+.env.*.local
+tmp/
+.venv/
+__pycache__/
+.pytest_cache/
+node_modules/
+.pnpm-store/
+dist/
+*.tsbuildinfo
+frontend/vite.config.js
+.test-tmp*/
+.pytest-cache-files-*/
+data/raw/**
+data/interim/**
+data/processed/**
+data/sample/**
+!data/**/.gitkeep
+*.tif
+*.tiff
+*.h5
+*.hdf
+*.nc
+*.sqlite
+# 原始数据和本地发布数据
+first_data/
+data/releases/
+
+# 测试临时目录
+pytest-cache-files-*/
+
+# 与当前源码重复的生成文件
+frontend/src/main.js
+frontend/src/App.vue.js

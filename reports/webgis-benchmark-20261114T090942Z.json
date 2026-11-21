@@ -1,0 +1,107 @@
+{
+  "environment": {
+    "python": "3.12.14",
+    "release": "sample-2019-06",
+    "asset": "ndvi-2019-06-01",
+    "endpoint": "/api/v1/rasters/ndvi-2019-06-01/point?lon=-97.8&lat=36.5",
+    "requests_per_case": 60,
+    "concurrency_levels": [
+      1,
+      5,
+      10
+    ],
+    "run_kind": "in-process TestClient; coursework microbenchmark"
+  },
+  "results": [
+    {
+      "cache_enabled": false,
+      "concurrency": 1,
+      "requests": 60,
+      "cold_status": 200,
+      "cold_cache": "query:BYPASS",
+      "cold_ms": 188.031,
+      "median_ms": 41.067,
+      "p95_ms": 49.225,
+      "app_median_ms": 37.898,
+      "throughput_rps": 23.73,
+      "errors": 0,
+      "cache_hits": 0,
+      "cache_bypasses": 60
+    },
+    {
+      "cache_enabled": false,
+      "concurrency": 5,
+      "requests": 60,
+      "cold_status": 200,
+      "cold_cache": "query:BYPASS",
+      "cold_ms": 41.385,
+      "median_ms": 208.646,
+      "p95_ms": 307.201,
+      "app_median_ms": 198.842,
+      "throughput_rps": 22.26,
+      "errors": 0,
+      "cache_hits": 0,
+      "cache_bypasses": 60
+    },
+    {
+      "cache_enabled": false,
+      "concurrency": 10,
+      "requests": 60,
+      "cold_status": 200,
+      "cold_cache": "query:BYPASS",
+      "cold_ms": 81.868,
+      "median_ms": 650.392,
+      "p95_ms": 686.335,
+      "app_median_ms": 609.065,
+      "throughput_rps": 15.35,
+      "errors": 0,
+      "cache_hits": 0,
+      "cache_bypasses": 60
+    },
+    {
+      "cache_enabled": true,
+      "concurrency": 1,
+      "requests": 60,
+      "cold_status": 200,
+      "cold_cache": "query:MISS",
+      "cold_ms": 77.826,
+      "median_ms": 16.526,
+      "p95_ms": 21.501,
+      "app_median_ms": 12.496,
+      "throughput_rps": 56.61,
+      "errors": 0,
+      "cache_hits": 60,
+      "cache_bypasses": 0
+    },
+    {
+      "cache_enabled": true,
+      "concurrency": 5,
+      "requests": 60,
+      "cold_status": 200,
+      "cold_cache": "query:MISS",
+      "cold_ms": 60.316,
+      "median_ms": 76.164,
+      "p95_ms": 93.06,
+      "app_median_ms": 58.806,
+      "throughput_rps": 64.02,
+      "errors": 0,
+      "cache_hits": 60,
+      "cache_bypasses": 0
+    },
+    {
+      "cache_enabled": true,
+      "concurrency": 10,
+      "requests": 60,
+      "cold_status": 200,
+      "cold_cache": "query:MISS",
+      "cold_ms": 66.936,
+      "median_ms": 166.89,
+      "p95_ms": 193.781,
+      "app_median_ms": 128.373,
+      "throughput_rps": 59.36,
+      "errors": 0,
+      "cache_hits": 60,
+      "cache_bypasses": 0
+    }
+  ]
+}
